@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+    	<title>Text Element in SVG</title>
+    	<meta charset="utf-8" />
+    </head>
+    <body>
+        <link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+        <div class="contain-demo">
+            <svg width="775" height="500">
+                <!-- tspan element allows to group text parts to apply changes separately to each part -->
+                <text x="15" y="90" fill="#ED6E46" font-size="60" font-family="'Leckerli One' cursive">Watermelons
+                    <tspan dy="-30" fill="#BBC42A" font-size="80">are</tspan>
+                    <tspan dy="50">delicious</tspan>
+                </text>
+            </svg>
+        </div>
+    </body>
+</html>
