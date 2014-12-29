@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+    <head>
+    	<title>Text Element in SVG</title>
+    	<meta charset="utf-8" />
+    </head>
+    <body>
+        <link href='http://fonts.googleapis.com/css?family=Leckerli+One' rel='stylesheet' type='text/css'>
+        <div class="contain-demo">
+            <svg width="950" height="100">
+                <!-- textLength attribute specifies the length of the text -->
+                <!-- length will be adjusted by altering the space between characters-->
+                <!-- lentghAdjust determines how the adjustment will be done-->
+                <!-- "spacing" - only values of spacing between glyphs will be changed-->
+                <!-- "spacingAndGlyphs" - both spacings and glyphs will be changed -->
+                <!--                    - results in continuous text -->
+                <text x="30" y="90" fill="#ED6E46" font-size="100" textLength="900" lengthAdjust="spacingAndGlyphs"
+                font-family="'Leckerli One' cursive">Watermelon</text>
+            </svg>
+        </div>
+    </body>
+</html>
